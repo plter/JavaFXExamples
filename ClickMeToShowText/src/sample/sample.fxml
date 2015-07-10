@@ -1,0 +1,9 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT">
+
+    <TextField fx:id="tf"/>
+    <Button text="Click me" onMouseClicked="#clickHandler"/>
+</VBox>
