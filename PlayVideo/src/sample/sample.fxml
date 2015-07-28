@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<BorderPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml">
+
+    <center>
+        <MediaView fx:id="mv"/>
+    </center>
+
+    <bottom>
+        <HBox spacing="5" alignment="CENTER" style="-fx-padding: 10px">
+            <Button text="Play" onAction="#playBtnClicked"/>
+            <Button text="Pause" onAction="#pauseBtnClicked"/>
+            <Button text="Stop" onAction="#stopBtnClicked"/>
+        </HBox>
+    </bottom>
+</BorderPane>
