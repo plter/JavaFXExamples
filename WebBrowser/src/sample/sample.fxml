@@ -1,9 +1,7 @@
-<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.web.WebView?>
-<BorderPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml">
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml">
 
-    <center>
-        <WebView fx:id="wv"/>
-    </center>
-</BorderPane>
+    <WebView fx:id="wv" VBox.vgrow="ALWAYS"/>
+</VBox>
