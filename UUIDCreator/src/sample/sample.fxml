@@ -1,0 +1,11 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml"
+      style="-fx-padding: 5px;-fx-spacing: 5px">
+
+    <Button text="生成UUID" HBox.hgrow="ALWAYS" onAction="#btnCreateUUIDClickedHandler"/>
+    <TextArea editable="false" fx:id="taUUIDOut"/>
+</VBox>
